@@ -5,5 +5,7 @@ public class HowMany {
         Scanner s;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Кол-во слов: " + scanner.nextLine().split("\\s").length);
+
+
     }
 }
